@@ -1,0 +1,64 @@
+{
+  "name": "react-hopscotch",
+  "version": "1.0.0",
+  "description": "React components for Hopscotch framework",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moust/react-hopscotch.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "javascript",
+    "react-component",
+    "hopscotch",
+    "tours"
+  ],
+  "author": "Quentin Aupetit <quentin.aupetit@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./components",
+    "test": "mocha",
+    "demo": "webpack-dev-server",
+    "prepublish": "npm test"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.5.4",
+    "react": "^15.0.0 || ^16.0.0"
+  },
+  "dependencies": {
+    "hopscotch": "^0.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "chai": "^4.1.2",
+    "css-loader": "^0.28.7",
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-16": "^1.0.2",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "file-loader": "^1.1.5",
+    "ignore-styles": "^5.0.1",
+    "jsdom": "^11.3.0",
+    "mocha": "^4.0.1",
+    "prop-types": "^15.5.4",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "sinon": "^4.0.1",
+    "style-loader": "^0.19.0",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
+  }
+}

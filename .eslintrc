@@ -1,0 +1,18 @@
+{
+    "extends": "airbnb",
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "node": true,
+        "mocha": true
+    },
+    "rules": {
+        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "function-paren-newline": ["error", "consistent"],
+        "comma-dangle": ["error", "only-multiline"],
+        "no-plusplus": 0,
+        "react/jsx-indent": ["error", 4],
+        "react/jsx-indent-props": ["error", 4],
+        "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }]
+    }
+}
